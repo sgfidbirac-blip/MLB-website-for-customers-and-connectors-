@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="22" fill="#0A2647"/>
+  <rect x="10" y="10" width="80" height="80" rx="16" fill="none" stroke="#CCA43B" stroke-width="4"/>
+  <text x="50" y="62" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="32" fill="#CCA43B" letter-spacing="-1">MLB</text>
+</svg>

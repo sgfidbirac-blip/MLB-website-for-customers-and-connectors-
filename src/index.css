@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mlb-blue: #0A2647;
+  --color-mlb-blue-dark: #061a32;
+  --color-mlb-blue-light: #144272;
+  --color-mlb-blue-soft: #1a4a7a;
+  --color-mlb-gold: #CCA43B;
+  --color-mlb-gold-light: #E2C275;
+  --color-mlb-gold-dark: #A67C00;
+  --font-display: "Outfit", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+:root {
+  --mlb-blue: #0A2647;
+  --mlb-blue-dark: #061a32;
+  --mlb-gold: #CCA43B;
+}
+
+* {
+  font-family: var(--font-body);
+}
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulseGold {
+  0%,100% { box-shadow: 0 0 0 0 rgba(204,164,59,0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(204,164,59,0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}

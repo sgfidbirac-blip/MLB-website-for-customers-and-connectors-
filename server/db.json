@@ -1,0 +1,13 @@
+{
+  "applications": [],
+  "connectors": [
+    {
+      "id": "1",
+      "agentCode": "CON-101",
+      "name": "Demo Connector",
+      "phone": "9999999999",
+      "password": "connector123",
+      "createdAt": "2026-08-04T11:18:42.351Z"
+    }
+  ]
+}
